@@ -1,0 +1,330 @@
+*{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----------------------------------header navigation------------------------------------*/
+.tete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+}
+nav ul{
+ 
+     display: inline-block;
+     list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #747474;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 18px;
+}
+li span{
+    color: #00b39b;
+}
+
+nav ul li a:hover{
+    color: #00b39b;
+}
+/*---------------------------------section1-----------------------------------------*/
+.sect1{
+    padding: 10px 15%;
+    margin-bottom: 20px;
+}
+.sect1 .center{
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+.sect1 .center img{
+    margin-bottom: 2%;
+}
+
+.sect1 .center p{
+    color: #00b39b;
+    font-size: 30px;
+    font-family: Work Sans, Arial, sans-serif;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.gap{
+    gap: 20px;
+}
+.flex1 .flex1-para{ 
+    line-height: 1.5;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    color: #747474;
+}
+.box-center1,.box-center2, .box-center3{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    color: #FFF;
+}
+.box-center1,.box-center2, .box-center3 i{
+   margin-bottom: 20px;
+}
+.box-center1{
+    background:#00CCB1; 
+}
+.box-center2{
+    background:#3D83DF;
+}
+.box-center3{
+    background: #313C48;
+}
+h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box-center1 p{
+   font-size: 20px;
+   margin-bottom: 50px;
+}
+.box-center2 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+ 
+ .box-center3 p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#cars{
+    border: none;
+    background: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+#cars option{
+    color: #FFF;
+    font-size: 18px;
+    background-color: #7071E8;
+}
+
+/*---------------------------section liste logo----------------------------*/
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin: 3% 0 3% 0;
+}
+.logo h1{
+    color: #00b39b;
+}
+.list-logo li{
+    font-size: 1rem;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px 0 5px 5px;
+    width: 20%;
+}
+/*--------------------------Section box----------------------------------*/
+.sect3{
+    padding: 10px 15%;
+    display: flex;
+    height: 550px;
+    background: #e5faf8;
+    margin-bottom: 5%;
+}
+.sect3 .col h6{
+    color: #00b39b;
+    font-size: 2.125rem;
+    font-weight: 400;
+    margin: 20% 0 5% 0;
+}
+.sect3 .col h3{
+    color: #00b39b;
+}
+.sect3 .col p{
+    color: #747474;
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 450px;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+.sect3 .col .box1{
+    width: 210px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    margin: 10px;
+    background-color: #FFF;
+    text-align: center;
+}
+.sect3 .col .box2{
+    width: 210px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 45px 25px;
+    margin: 10px;
+    background-color: #FFF;
+    text-align: center;
+}
+.sect3 .col .box3{
+    width: 210px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 45px 25px;
+    margin: 10px;
+    background-color: #FFF;
+    text-align: center;
+}
+.sect3 .col .box4{
+    width: 210px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 45px 25px;
+    margin: 10px;
+    background-color: #FFF;
+    text-align: center;
+}
+.sect3 .col .box1 p{
+    font-size: 12px;
+    
+}
+.img2, .img3, .img4, p{
+    margin: 10px 0;
+}
+.sect3 .col .card1{
+    position: relative;
+    left: 8%;
+    top: 6%;
+}
+.sect3 .col .card2{
+    position: relative;
+    bottom: 8%;
+    left: 35px;
+   
+}
+.sect3 .col .card3{
+    position: relative;
+    bottom: 2%;
+    left: 8%;
+}
+.sect3 .col .card4{
+    position: relative;
+    bottom: 10%;
+    left: 35px;
+}
+/*---------------------------section des offres d'emploi----------------------------*/
+.sect4{
+    padding: 10px 15%;
+}
+.sect4 .center{
+    text-align: center;
+}
+
+.sect4 .center h1{
+    color: #00b39b;
+    margin-bottom: 3%;
+}
+.sect4 .center p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-right: 30px;
+    color: #747474;
+    margin-bottom: 70px;
+}
+/*----------------------------system de grid pour les images-----------------------------*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px; /*  espace entre les grid---------*/
+}
+.container .item{
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.container .item img{
+    width: 100%;
+}
+.container .item:hover{
+    cursor: pointer;
+    box-shadow: -5px -5px 10px #747474;
+}
+.container .item .space-around{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+.container .item .space-around h3{
+    font-size: 15px;
+    color: #747474;
+}
+.container .item .space-around a{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #3d83df;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.container .item .space-around a:hover{
+    background-color: #0d6ae4;
+}
+/*-------------------------rejoignez nous maintenant--------------------------*/
+.sect4 .center1{
+    text-align: center;
+    margin:10% 0 8% 0; 
+}
+.sect4 .center1 h1{
+    font-size: 28px;
+    color: #747474;
+}
+.sect4 .center1 a{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #3d83df;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 3%;
+}
+.sect4 .center1 a:hover{
+    background-color: #0d6ae4;
+}
+/*----------------------------------------pied de page------------------------------------------------------*/
+footer{
+    padding: 10px 15%;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    color: #747474;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
