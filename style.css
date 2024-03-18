@@ -6,13 +6,13 @@
     box-sizing: border-box;
 }
 /*----------------------------------header navigation------------------------------------*/
-.tete{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 15%;
 }
-nav ul{
+nav ul li{
  
      display: inline-block;
      list-style-type: none;
@@ -24,8 +24,9 @@ nav ul li a{
     font-weight: 600;
     margin-right: 18px;
 }
-li span{
+nav ul li span{
     color: #00b39b;
+    font-weight: 600;
 }
 
 nav ul li a:hover{
@@ -46,20 +47,19 @@ nav ul li a:hover{
 
 .sect1 .center p{
     color: #00b39b;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 300;
     font-family: Work Sans, Arial, sans-serif;
 }
 .flex1{
     display: flex;
     justify-content: space-between;
-}
-.gap{
     gap: 20px;
 }
+
 .flex1 .flex1-para{ 
     line-height: 1.5;
-    margin-right: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 7%;
     color: #747474;
 }
 .box-center1,.box-center2, .box-center3{
@@ -100,7 +100,7 @@ h1{
     font-size: 20px;
     margin-bottom: 50px;
 }
-#cars{
+.cars{
     border: none;
     background: none;
     color: #FFF;
@@ -108,10 +108,13 @@ h1{
     font-weight: 600;
     text-decoration: underline;
 }
-#cars option{
-    color: #FFF;
+.marge{
+    margin-bottom: 1px;
+}
+.cars option{
+    color: #000;
     font-size: 18px;
-    background-color: #7071E8;
+    background-color: #FFF;
 }
 
 /*---------------------------section liste logo----------------------------*/
@@ -119,7 +122,7 @@ h1{
     display: flex;
     justify-content: space-between;
     gap: 70px;
-    margin: 3% 0 3% 0;
+    margin: 3% 0;
 }
 .logo h1{
     color: #00b39b;
@@ -135,9 +138,10 @@ h1{
 .sect3{
     padding: 10px 15%;
     display: flex;
-    height: 550px;
+    height: 575px;
     background: #e5faf8;
     margin-bottom: 5%;
+    gap: 65px;
 }
 .sect3 .col h6{
     color: #00b39b;
@@ -148,7 +152,7 @@ h1{
 .sect3 .col h3{
     color: #00b39b;
 }
-.sect3 .col p{
+.sect3 .col .p1{
     color: #747474;
     font-weight: 300;
     font-size: 15px;
@@ -156,9 +160,9 @@ h1{
     line-height: 1.5;
     margin-bottom: 5%;
 }
-.sect3 .col .box1{
-    width: 210px;
-    height: 220px;
+.sect3 .col .box{
+    width: 220px;
+    height: 230px;
     display: inline-block;
     border-radius: 5px;
     box-sizing: border-box;
@@ -167,42 +171,10 @@ h1{
     background-color: #FFF;
     text-align: center;
 }
-.sect3 .col .box2{
-    width: 210px;
-    height: 220px;
-    display: inline-block;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding: 45px 25px;
-    margin: 10px;
-    background-color: #FFF;
-    text-align: center;
-}
-.sect3 .col .box3{
-    width: 210px;
-    height: 220px;
-    display: inline-block;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding: 45px 25px;
-    margin: 10px;
-    background-color: #FFF;
-    text-align: center;
-}
-.sect3 .col .box4{
-    width: 210px;
-    height: 220px;
-    display: inline-block;
-    border-radius: 5px;
-    box-sizing: border-box;
-    padding: 45px 25px;
-    margin: 10px;
-    background-color: #FFF;
-    text-align: center;
-}
-.sect3 .col .box1 p{
-    font-size: 12px;
-    
+
+.sect3 .col .box p{
+    font-size: 13px;
+    color: #747474;    
 }
 .img2, .img3, .img4, p{
     margin: 10px 0;
@@ -214,18 +186,18 @@ h1{
 }
 .sect3 .col .card2{
     position: relative;
-    bottom: 8%;
+    bottom: 12%;
     left: 35px;
    
 }
 .sect3 .col .card3{
     position: relative;
-    bottom: 2%;
+    bottom: 7%;
     left: 8%;
 }
 .sect3 .col .card4{
     position: relative;
-    bottom: 10%;
+    bottom: 12%;
     left: 35px;
 }
 /*---------------------------section des offres d'emploi----------------------------*/
